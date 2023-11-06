@@ -1,0 +1,21 @@
+.light {
+    fill: #2a3554;
+    animation: animate 5s linear infinite;
+    opacity: 0.5;
+    stroke-width: 3px;
+}
+
+@keyframes animate {
+    0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
+        opacity: 0.5;
+        fill: #2a3554;
+        stroke: rgba(111, 25, 168, 0);
+        text-shadow: none;
+    }
+    18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100% {
+        opacity: 1;
+        fill: rgba(111, 25, 168, 0.64);
+        stroke: rgba(111, 25, 168, 0.53);
+
+    }
+}

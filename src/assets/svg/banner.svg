@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1222" viewBox="0 0 1920 1222">
+    <g id="banner_bg" transform="translate(-50 -49.909)">
+        <rect id="Rectangle_7" width="1920" height="1222" transform="translate(50 49.909)"
+              fill="#fff"/>
+        <path id="Path_466"
+              d="M887.818,752.716A569.436,569.436,0,0,1,855.841,941.4H50V249.361A567.212,567.212,0,0,1,317.788,182.65C632.6,182.65,887.818,437.87,887.818,752.716Z"
+              transform="translate(0 330.419)" fill="#9b50f9"/>
+        <path id="Path_467"
+              d="M1357.56,50V885.1C1245.4,1002.7,1087.154,1075.978,911.806,1075.978c-340.154,0-615.936-275.782-615.936-615.936A613.666,613.666,0,0,1,452.193,50Z"
+              transform="translate(612.44 0)" fill="#6788f9" style="mix-blend-mode: multiply;isolation: isolate"/>
+    </g>
+</svg>

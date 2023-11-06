@@ -1,0 +1,67 @@
+.root{
+    flex-grow: 1;
+    min-height: 70vh;
+    margin: 0 5vw;
+}
+.svgBox{
+    /*background-color: #61dafb;*/
+    background: url("/src/assets/svg/background1.svg") no-repeat ;
+
+    /*background-size: cover;*/
+}
+/*.box1{*/
+/*    background: url("/src/assets/svg/home02.svg") no-repeat fixed center;*/
+/*    background-size: cover;*/
+/*}*/
+
+.card{
+
+    border-radius: 20px;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+}
+
+.card .face{
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    transition:1.5s ease-in-out;
+    transform: perspective(1000px) rotateY(0deg);
+}
+
+.card .face.front{
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+.card:hover .face.front{
+    border-radius: 20px;
+    background-color: #ffffff;
+    transform: perspective(1000px) rotateY(180deg);
+}
+.card .face.back{
+    border-radius: 20px;
+    background-color: #e7d4ff;
+    color: white;
+    transform: perspective(1000px) rotateY(180deg);
+}
+.card:hover .face.back{
+    border-radius: 20px;
+    background-color: #e7d4ff;
+    transform: perspective(1000px) rotateY(360deg);
+}
+.card .face .text{
+    transform: perspective(3000rem) translateZ(50px);
+}

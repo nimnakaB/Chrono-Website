@@ -1,0 +1,53 @@
+body {
+  /*background: #22272A;*/
+
+  background-size: cover;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  /*width: 100%;*/
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#progressbar{
+  transform: perspective(0) translateZ(20000px);
+  position: fixed;
+  top: 15vh;
+  right: 0;
+  width: 15px;
+  height: 85vh;
+  border-radius: 10px;
+  background-color: #000084;
+  border: 2px solid #ffffff;
+}
+
+/*::-webkit-scrollbar-corner*/
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: rgba(0, 0, 132, 0.5);
+  opacity: 0;
+  /*box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);*/
+}
+::-webkit-scrollbar-thumb{
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.3), 0 1px 3px rgba(0, 0, 0, 0.08);
+  /*background: #DA22FF;  !* fallback for old browsers *!*/
+  background: -webkit-linear-gradient(to top, #000084, rgba(173, 29, 235, 0));
+  background: linear-gradient(to top, #000084, rgba(173, 29, 235, 0)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover{
+  /*background: #DA22FF;  !* fallback for old browsers *!*/
+  background: -webkit-linear-gradient(to top, #000084, #000084);
+  background: linear-gradient(to top, #000084, #000084); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  transition: all 1s ease;
+}
+
+

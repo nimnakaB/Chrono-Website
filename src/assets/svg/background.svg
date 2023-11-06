@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+    <defs>
+        <style>
+            .cls-1{isolation:isolate;}.cls-2{fill:url(#linear-gradient);}.cls-3{fill:#2346aa;opacity:0.1;}.cls-4{fill:#07024d;opacity:0.2;mix-blend-mode:multiply;}
+        </style>
+        <linearGradient id="linear-gradient" y1="540" x2="1920" y2="540" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#090450"/>
+            <stop offset="1" stop-color="#051c63"/>
+        </linearGradient>
+    </defs>
+    <g class="cls-1">
+        <g id="Layer_1" >
+            <g id="banner_bg" >
+                <rect class="cls-2" width="1920" height="1080"/>
+                <path class="cls-3"
+                      d="M740.57,913.22A503.55,503.55,0,0,1,712.31,1080H0V468.29a501.34,501.34,0,0,1,236.71-59C515,409.32,740.57,634.92,740.57,913.22Z"/>
+                <path class="cls-4"
+                      d="M1920,0V738.16c-99.14,104-239,168.73-394,168.73-300.68,0-544.45-243.77-544.45-544.44A542.41,542.41,0,0,1,1119.72,0Z"/>
+            </g>
+        </g>
+    </g>
+</svg>
